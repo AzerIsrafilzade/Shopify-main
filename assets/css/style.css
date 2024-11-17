@@ -1,0 +1,699 @@
+
+* {
+    text-decoration: none !important
+}
+
+.header-trial {
+    background-color:#A5E3B9;
+      
+}
+
+.trial-text {
+    font-size: 1rem;
+    color: #000; 
+}
+
+.sign-up-btn {
+    color: #000; 
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.mobile-menyu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0, 0.6);
+    width: 0%;
+    height: 100vh;
+    overflow-x: hidden;
+    transition: width 1.2s ease;
+}
+
+
+.mobile-menyu.aktiv {
+       width: 100%;
+}
+
+
+.fa-circle-xmark {
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 29px;
+    color: #ccc;
+}
+
+.mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.mobile-nav-links a {
+    color: #ccc;
+    font-size: 28px;
+}
+
+.mobile-nav-links a:hover .fa-circle-xmark:hover {
+    color: #fff;
+}
+
+
+.header {
+    background-color:#002D2D;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Logo və bars arasında məsafəni bərabər edir */
+    align-items: center; /* Dikey olaraq ortalayır */
+    
+}
+
+  .header .logo {
+    height: 40px; /* Şəklin uyğun ölçüsünü tənzimləyir (ehtiyac varsa) */
+  }
+
+
+
+.header nav a {
+    color: #fff;
+    margin-right:30px;
+    text-decoration: none;
+    
+
+}
+
+
+header nav{
+    display: none;
+
+}
+
+header button {
+    background-color:#008060;
+    color:#fff;
+    padding:15px 30px; 
+    border-color:transparent;
+    border-radius:5px;
+    display: none;
+} 
+
+
+
+
+
+
+.arxasi-solgun-reng {
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(0,0,0, .6);
+    height: 100vh;
+    width: 0;
+    overflow-x:hidden;
+}
+
+.arxasi-solgun-reng.aktiv {
+    width: 100%;
+}
+
+
+
+.modal-boxes {
+    width: 300px;
+    background-color: #fff;
+    padding: 10px;
+    height: 200px;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 10px 10px 30px rgba(255,255,255, .6);
+    top: 30%;
+    left: 10%;
+    transform: translate (-30%, -30%);
+
+}
+
+.modal-boxes iframe {
+    margin-top: 40px;
+}
+
+.modal-boxes .fa-xmark {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 15px;
+    z-index: 9999;
+}
+
+
+
+.introduction {
+    background-color:#002D2D;
+    
+}
+
+.intro-left-side h1 {
+    font-size: 40px;
+}
+.intro-left-side h6 {
+    font-size: 18px;
+}
+.intro-left-side h5 {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.intro-left-side {
+    padding-right: 15px; 
+}
+
+
+.play-icon {
+    position: absolute; /* Üstüne konumlandırmak için */
+    top: 50%; /* Üstten %50, yani ortalama */
+    left: 50%; /* Soldan %50, yani ortalama */
+    transform: translate(-50%, -50%); /* Tam merkezde konumlandırmak için */
+    z-index: 1; /* Üstte görünmesi için z-index */
+    width: 12%; /* İkon boyutu, isteğinize göre ayarlayabilirsiniz */
+  }
+  
+  .intro-image {
+    position: relative;
+    z-index: 0;
+  }
+
+.intro-right-side {
+    position: relative;
+    padding-left: 15px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+
+.email-container {
+    display: flex;
+    
+  }
+  
+  .email-container input {
+    width: 40%;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-color:transparent;
+    border-radius:5px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    color: #000;
+    font-size: 11px;
+
+  }
+
+ 
+
+  .email-container button{
+    display: flex;
+    background-color:#008060;
+    color:#fff;
+    padding:15px 30px; 
+    border-color:transparent;
+    border-radius:5px;
+    margin-top: 40px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+    
+} 
+
+.discovery h1 {
+    font-size: 40px;
+    
+}
+
+.discovery {
+    background-color:#799102;
+
+}
+
+
+
+
+.visionSwiper .swiper-slide img {
+    width: 73px;
+    height: 69px;
+    margin: 20px auto;
+    display: block;
+}
+
+.swiper-slide .card {
+    background-color:#008060;
+    color: #ccc;
+}
+
+.swiper-slide a {
+    color: #000;
+    margin-top: 10px;
+    font-size: 15px;
+
+    
+}
+
+
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #2C3647;
+    ;
+}
+
+.connect a {
+    color:#008060;
+
+}
+
+.sungls {
+    position: absolute; /* Üstüne konumlandırmak için */
+    top: 50%; /* Üstten %50, yani ortalama */
+    left: 50%; /* Soldan %50, yani ortalama */
+    transform: translate(-50%, -50%); /* Tam merkezde konumlandırmak için */
+    z-index: 1; /* Üstte görünmesi için z-index */
+    width: 70%; /* İkon boyutu, isteğinize göre ayarlayabilirsiniz */
+  }
+  
+  .con-image {
+    position: relative;
+    z-index: 0;
+  }
+
+.con-left-side h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.con-left-side a {
+    font-size: 16px;
+}
+.con-left-side h5 {
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-family:Arial;
+    font-weight: 400;
+    
+}
+
+.con-left-side {
+    padding-right: 30px; 
+}
+
+.shirketlerKaruseli img {
+    width: 200px;
+    height: 59px;
+
+}
+
+.shirketlerKaruseli img{
+    width: 250px;
+    height: 200px;
+  
+    gap: 20px;
+   
+}
+
+.companies {
+    background-color: #008060;
+}
+
+
+
+.star {
+    position: absolute; /* Üstüne konumlandırmak için */
+    top: 50%; /* Üstten %50, yani ortalama */
+    left: 50%; /* Soldan %50, yani ortalama */
+    transform: translate(-50%, -50%); /* Tam merkezde konumlandırmak için */
+    z-index: 1; /* Üstte görünmesi için z-index */
+    width: 70%; /* İkon boyutu, isteğinize göre ayarlayabilirsiniz */
+  }
+  
+  .suc-image {
+    position: relative;
+    z-index: 0;
+  }
+
+
+
+.suc-left-side h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+   
+}
+.suc-left-side a {
+    font-size: 16px;
+    color:#008060;
+}
+.suc-left-side h5 {
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-family:Arial;
+    font-weight: 400;
+    
+}
+
+.suc-left-side {
+    padding-right: 30px; 
+    margin-left: 60px;
+}
+
+
+.merch-left-side h5 {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.merch-left-side p {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.merch-left-side h6 {
+    font-size: 17px;
+     
+}
+
+.merch-left-side {
+    padding-right: 30px; 
+}
+
+
+.accordion-section {
+    background-color: #008060;
+}
+
+.accordion-section .h2 {
+    font-size: 50px;
+}
+
+.card-text {
+    color:#ccc;
+    font-size: 14px; 
+}
+
+.ac-panel a {
+    color: #000;
+}
+
+.ac {
+   background-color: transparent; 
+   color:#fff;
+   border: none;
+   
+}
+
+.ac-header button {
+    color:#fff !important;
+    font-size: 20px !important;
+}
+
+.ac-text {
+    color:#ccc !important; 
+    text-align: left;
+}
+
+
+.footer {
+    background-color:#004C3F;
+}
+
+
+
+.footer-center-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.footer-center-links a {
+    margin: 10px 0;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start; 
+    
+}
+
+
+.terms-policy {
+    display: flex;
+    gap: 20px; 
+    justify-content: flex-end;
+}
+
+
+
+select {
+    margin-top: 40px;
+}
+
+.footer-center h5 {
+    margin-top: 20px;
+}
+
+.product-image {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain; 
+}
+
+@media (max-width: 768px) {
+    .header nav{
+        display: flex;
+        padding: 15px;
+    }
+
+    .introduction .row {
+        display: flex;
+        align-items: center;
+    }
+
+    .fa-bars-staggered {
+        font-size: 30px; /* Bars ikonunun ölçüsünü tənzimləyir */
+      }
+
+    .sign-up-btn {
+    margin-top: 0;
+    }
+
+    .intro-left-side h1 {
+        font-size: 45px;
+    }
+
+    .intro-left-side h6{
+        margin-top: 30px;
+    }
+
+    .intro-left-side h5 {
+        font-size: 10px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .modal-boxes {
+        width: 500px;
+        background-color: #fff;
+        padding: 20px;
+        height: 350px;
+        position: absolute;
+        border-radius: 4px;
+        box-shadow: 10px 10px 30px rgba(255,255,255, .6);
+        top: 50%;
+        left: 50%;
+        transform: translate (-50%, -50%);
+
+    }
+
+    .modal-boxes iframe {
+        width: 450px;
+        margin-top: 40px;
+        height: 250px;
+        margin-right: 50px;
+    }
+
+    .modal-boxes .fa-xmark {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 20px;
+        z-index: 9999;
+    }
+}
+
+@media(max-width:320px){
+
+    .header {
+        display: flex;
+        justify-content: space-between; /* Logo və bars arasında məsafəni bərabər edir */
+        align-items: center; /* Dikey olaraq ortalayır */
+      }
+    
+      .header .logo {
+        height: 30px;
+        
+      }
+    
+      .fa-bars-staggered {
+        font-size: 24px; /* Bars ikonunun ölçüsünü tənzimləyir */
+      }
+
+      .intro-left-side h1 {
+        font-size: 35px;
+    }
+
+      .intro-left-side h6{
+        margin-top: 30px;
+    }
+
+    .intro-left-side h5 {
+        font-size: 10px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .email-container input {
+        width: 150px;
+        height: 50px;
+    }
+    .email-container button {
+        width: 150px;
+        height: 50px;
+    }
+
+    .intro-left-side{
+        font-size: 10px;
+    }
+
+   
+    
+    /* .logo{
+        width: 150px;
+    }
+    .hero-left h2{
+        font-size: 25px;
+    }
+    .hero-left{
+        width: 100%;
+        gap: 10px;
+    }
+    .hero-left p{
+        font-size: 15px;
+    }
+    .companies{
+        flex-direction: column;
+        bottom: -600px;
+        left: 0;
+        
+    }
+    .DvD{
+        flex-direction: column;
+    }
+    .dvdimage{
+        width: 100% !important;
+    }
+    .dvd-data{
+        left: 0px;
+        bottom: -100%;
+        width: 100%;
+        position: static;
+    }
+    .dvd-left h2{
+        font-size: 20px;
+    }
+    .model{
+        flex-direction: column;
+        margin: 0;  
+ 
+        
+    }
+    .model-left{
+        margin-left: 59px;
+    }
+    .model-left h2{
+        font-size: 20px;
+    }
+    
+    .modelimage{
+        width: 100% !important;
+    }
+    .model-data{
+        position: static;
+        left: 0px;
+        bottom: -100%;
+        width: 100%;
+    }
+    .project{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       flex-direction: column;
+       margin: 0;
+    }
+    .project-left{
+        margin-left: -27px;
+    }
+
+  
+    .design{
+        flex-direction: column;
+        margin-bottom: -800px;
+    }
+    .hero{
+        margin-bottom: 500px;
+    }
+    .design-left{
+        text-align: center;
+    }
+    .design-left h2{
+        font-size: 25px;
+    }
+    .design-left a{
+        margin-bottom: 20px;
+    }
+    .card {
+        margin: 0 auto;
+    }
+    .idea{
+        font-size: 24px;
+    }
+ 
+   
+     */
+}
+
+@media(max-width:884px) {
+    .header {
+        display: flex;
+        justify-content: space-between; /* Logo və bars arasında məsafəni bərabər edir */
+        align-items: center; /* Dikey olaraq ortalayır */
+      }
+    
+      .header .logo {
+        height: 30px;
+        margin-right:100px;
+        margin-top: -29px;
+        
+      }
+
+     .header .nav-links {
+        align-items: center;
+     } 
+
+      header button {
+        width: 50px;
+        height: 20px;
+
+      }
+
+}
