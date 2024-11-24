@@ -30,15 +30,24 @@
       <a href="">Manage</a>
       <a href="">Pricing</a>
       <a href="">Learn</a>
-      <a href="">Log in</a>
+
+      <!-- <div class="signup">
+        <button>Log in</button>
+        <button id="start-free-trial">Start free trial</button>
+       </div> -->
+       <div className="signin-section d-flex flex-column gap-3">
+        <a href=""class="log-in btn text-center">Login</a>
+        <a href=""class="navbar-btn btn nav-link text-center" id="start-free-trial">Start free trial</a>
+      </div>
     </nav>
+    
   </div>
 
   <div class="arxasi-solgun-reng">
     <div class="modal-boxes">
       <div class="fa-solid fa-xmark"></div>
       <div class="modal-body">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/kRqHf0qbyPk?si=-bwScpoOD4wpigfV"
+        <iframe width="100%" height="140px" src="https://www.youtube.com/embed/kRqHf0qbyPk?si=-bwScpoOD4wpigfV"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -64,18 +73,21 @@
   <header class="header py-5">
     <div class="container">
       <div class="header">
-        <i class="fa-solid d-md-none fa-bars-staggered text-white me-2"></i>
+        <i class="fa-solid d-lg-none fa-bars-staggered text-white me-2"></i>
         <img class="logo" src="./assets/images/header/logo.svg" alt="">
-        <nav class="nav-links-left d-none d-md-flex">
+        <nav class="nav-links-left d-none d-lg-flex">
           <a href="">Start</a>
           <a href="">Sell</a>
           <a href=>Market</a>
           <a href="">Manage</a>
           <a href="">Pricing</a>
           <a href="">Learn</a>
-          <a href="">Log in</a>
         </nav>
-        <button class="Start free trial d-none d-md-block" id="start-free-trial">Start free trial</button>
+       <div class="start-free-trial">
+        <button class="Log-in d-none d-lg-block">Log in</button>
+        <button class="Start-free-trial d-none d-lg-block" id="start-free-trial">Start free trial</button>
+       </div>
+        
       </div>
     </div>
   </header>
@@ -139,7 +151,7 @@
           <div class="discover-left-side text-white">
 
             <h1>Discover why millions of <br> entrepreneurs choose <br>
-              Shopify to build their <br> business—from Hello World <br> to IPO. </h1>
+              Shopify to build their <br> business—from Hello World to IPO. </h1>
 
           </div>
         </div>
@@ -251,7 +263,7 @@
           </div>
         </div>
         <div class="col-12 col-md-6">
-          <div class="suc-left-side text-dark">
+          <div class="suc-left-side pt-2 text-dark">
 
             <h1>Everything you need <br> to succeed</h1>
             <h5>Manage inventory, track payments, and view <br> real-time business insights from a single <br>
@@ -440,38 +452,87 @@
 
         <!-- center start -->
         <div class="col-12 col-md-3 col-lg-2 text-white footer-center">
-          <h5 class="text-uppercase">INFORMATION</h5>
+          <h5 class="text-uppercase">ONLINE STORE</h5>
           <div class="footer-center-links">
-            <a href="" class="text-secondary">New Collection</a>
-            <a href="" class="text-secondary">About Store</a>
-            <a href="" class="text-secondary">Contact Us</a>
-            <a href="" class="text-secondary">Latest News</a>
-            <a href="" class="text-secondary">Our Sitemap</a>
-            <a href="" class="text-secondary">Orders History</a>
+            <a href="" class="text-secondary">Sell online</a>
+            <a href="" class="text-secondary">Examples</a>
+            <a href="" class="text-secondary">Website builder</a>
+            <a href="" class="text-secondary">Online retail</a>
+            <a href="" class="text-secondary">Ecommerce website</a>
+            <a href="" class="text-secondary">Domain names</a>
+            <a href="" class="text-secondary">Shopping cart</a>
+            <a href="" class="text-secondary">Mobile commerce</a>
+            <a href="" class="text-secondary">Online store builder</a>
+            <a href="" class="text-secondary">Dropshipping Business</a>
+            <a href="" class="text-secondary">Store themes</a>
           </div>
         </div>
 
         <div class="col-12 col-md-3 col-lg-2 text-white footer-center">
-          <h5 class="text-uppercase">FOOTER MENU</h5>
+          <h5 class="text-uppercase">POINT OF SALE</h5>
           <div class="footer-center-links">
-            <a href="" class="text-secondary">Instagram profile</a>
-            <a href="" class="text-secondary">New Collection</a>
-            <a href="" class="text-secondary">Contact Us</a>
-            <a href="" class="text-secondary">Latest News</a>
-            <a href="" class="text-secondary">Terms & Conditions</a>
-            <a href="" class="text-secondary">Purchase Theme</a>
+            <a href="" class="text-secondary">Point of sale</a>
+            <a href="" class="text-secondary">Features</a>
+            <a href="" class="text-secondary">Hardware</a>
+            <a href="" class="text-secondary">Built-in POS</a>
+            <a href="" class="text-secondary">Prestige</a>
+            <a href="" class="text-secondary">Warehouse </a>
+            <a href="" class="text-secondary">Impulse</a>
+            <a href="" class="text-secondary">Venture</a>
           </div>
         </div>
 
         <div class="col-12 col-md-3 col-lg-2 text-white footer-center">
-          <h5 class="text-uppercase">USEFUL LINKS</h5>
+          <h5 class="text-uppercase">SUPPORT</h5>
           <div class="footer-center-links">
-            <a href="" class="text-secondary">Instagram profile</a>
-            <a href="" class="text-secondary">New Collection</a>
-            <a href="" class="text-secondary">Contact Us</a>
-            <a href="" class="text-secondary">Latest News</a>
-            <a href="" class="text-secondary">Terms & Conditions</a>
-            <a href="" class="text-secondary">Purchase Theme</a>
+            <a href="" class="text-secondary">24/7 support</a>
+            <a href="" class="text-secondary">Shopify Help Center</a>
+            <a href="" class="text-secondary">Shopify Community</a>
+            <a href="" class="text-secondary">API documentation</a>
+            <a href="" class="text-secondary">Free tools</a>
+            <a href="" class="text-secondary">Free stock photos</a>
+            <a href="" class="text-secondary">Websites for sale</a>
+            <a href="" class="text-secondary">Logo Maker</a>
+            <a href="" class="text-secondary">Business name generator</a>
+            <a href="" class="text-secondary">Research</a>
+            <a href="" class="text-secondary">Legal</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 col-lg-2 text-white footer-center">
+          <h5 class="text-uppercase">SHOPIFY</h5>
+          <div class="footer-center-links">
+            <a href="" class="text-secondary">Contact</a>
+            <a href="" class="text-secondary">Partner program</a>
+            <a href="" class="text-secondary">Affiliate program</a>
+            <a href="" class="text-secondary">App developers</a>
+            <a href="" class="text-secondary">Investors</a>
+            <a href="" class="text-secondary">Blog topics</a>
+            <a href="" class="text-secondary">Community Events</a>
+            <a href="" class="text-secondary">Fulfillment</a>
+            
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <div class="footer-right ms-5 mt-9 text-white">
+            <img src="./assets/images/header/logo1.svg" alt="" />
+            <h4>Shopify</h4>
+            <article>
+              Whether you want to sell products down the street or around the world, we have all the tools you need.
+            </article>
+
+            <div class="footer-left-end d-flex flex-column my-5">
+              <a href="mailto:shopify@gmail.com" class="text-white">
+                <img src="./assets/image/footer/mail.svg" alt="" />
+                shopify@gmail.com</a>
+              <a href="mailto:shopify@gmail.com" class="text-white">
+                <img src="./assets/image/footer/phone.svg" alt="" /> Phone:
+                (571) 245-098</a>
+              <a href="mailto:Company@gmail.com" class="text-white">
+                <img src="./assets/image/footer/location.svg" alt="" />
+                shopify@gmail.com</a>
+            </div>
           </div>
         </div>
         <!-- center end -->
@@ -489,7 +550,7 @@
             </div>
 
             <div class="terms-policy text-white">
-              <nav class="nav-links">
+              <nav class="nav-links d-flex flex-column">
                 <a>Terms of Service</a>
                 <a>Privacy Policy</a>
               </nav>
@@ -503,6 +564,7 @@
         </div>
 
         <!-- sag teref son -->
+         
       </div>
     </div>
   </footer>
